@@ -24,5 +24,5 @@ function pyramidVolume(){
 function pyramidVolumeTriangle(){
     var baseTri = document.getElementById("pyrId1Tri").value;
     var heightTri = document.getElementById("pyrId2Tri").value;
-    document.getElementById("pyramidTitleTri").innerHTML = "Regular Triangular Based Pyramid Volume: "+ (3/2)*baseTri*heightTri;
+    document.getElementById("pyramidTitleTri").innerHTML = "Regular Triangular Based Pyramid Volume: "+ Math.sqrt(3)/12*(baseTri**2)*heightTri;
 }
