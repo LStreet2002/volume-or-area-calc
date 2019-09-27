@@ -1,19 +1,19 @@
 function sphere(){
     var radius = document.getElementById("sphereId").value;
     var result = (4/3)*Math.PI*radius**3;
-    document.getElementById("h1").innerHTML = "Sphere volume: "+result;
+    document.getElementById("sphereTitle").innerHTML = "Sphere volume: "+result;
 }
 
 function cube(){
     var length = document.getElementById("cubeId").value;
     var result = length**3;
-    document.getElementById("h2").innerHTML = "Cube volume: "+result;
+    document.getElementById("cubeTitle").innerHTML = "Cube volume: "+result;
 }
 
 function triangle(){
     var base = document.getElementById("triangleId1").value;
     var height = document.getElementById("triangleId2").value;
-    document.getElementById("h3").innerHTML = "Triangle area: "+(base/2)*height;
+    document.getElementById("triangleTitle").innerHTML = "Triangle area: "+(base/2)*height;
 }
 
 function pyramidVolume(){
