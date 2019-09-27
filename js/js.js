@@ -26,3 +26,9 @@ function pyramidVolumeTriangle(){
     var heightTri = document.getElementById("pyrId2Tri").value;
     document.getElementById("pyramidTitleTri").innerHTML = "Regular Triangular Based Pyramid Volume: "+ Math.sqrt(3)/12*(baseTri**2)*heightTri;
 }
+
+function cylinderVolume(){
+    var radius = document.getElementById("cylR").value;
+    var length = document.getElementById("cylL").value;
+    document.getElementById("cylTitle").innerHTML = "Cylinder Volume: "+ Math.PI*(radius**2)*length;
+}
