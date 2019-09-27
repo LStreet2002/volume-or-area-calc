@@ -15,3 +15,9 @@ function triangle(){
     var height = document.getElementById("triangleId2").value;
     document.getElementById("h3").innerHTML = "Triangle area: "+(base/2)*height;
 }
+
+function pyramidVolume(){
+    var base = document.getElementById("triangleId1").value;
+    var height = document.getElementById("triangleId2").value;
+    document.getElementById("pyramidTitle").innerHTML = "Pyramid Volume: "+(base**2 /3)*height;
+}
