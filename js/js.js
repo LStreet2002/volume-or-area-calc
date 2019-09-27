@@ -31,7 +31,3 @@ function cylinderVolume(){
     var length = document.getElementById("cylL").value;
     document.getElementById("cylTitle").innerHTML = "Cylinder Volume: "+ Math.PI*(radius**2)*length;
 }
-function lineLength(){
-    var length = document.getElementById("line").value;
-    document.getElementById("lineTitle").innerHTML = "Line Length: " + length;
-}
